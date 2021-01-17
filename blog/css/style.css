@@ -1,0 +1,109 @@
+body {
+    background: rgb(135, 135, 136);
+    font-family: sans-serif;
+    color: #000000;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 21px;
+}
+p {
+    font-size: 18px; 
+}
+img {
+    width: 400px;
+    border-radius: 20%;
+    
+}
+.content {
+    width: 800px;
+    background: rgb(255, 255, 255);
+    padding: 30px 50px;
+    margin: 0 auto;
+  
+}
+.button {
+    background: #5800ff;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 60px;
+    text-decoration: none;
+    transition: 0.5s
+}
+.button:hover {
+    background: #905eff;
+    padding: 15px 25px;
+}
+.table {
+    border-radius: 0px;
+    width: 800px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin:  1px; 
+    padding: 5px 25px;
+    transition: 0.5s
+}
+
+.menu {
+    width: 600px;
+    margin: 0 auto;
+    background: #5800ff
+}
+
+.menu-link:hover {
+    background: #905eff
+}
+
+.contacts_li {
+    list-style-type: none;
+    font-size: 20px;
+   }
+
+.contacts_li_enter {
+    margin-top: 7px;
+}
+
+@media screen and (max-width: 1240px) {
+    .contacts_li { 
+        font-size: 35px;
+    }
+    
+    .menu {
+        padding: 10px 2px;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+    
+    .button {
+        font-size: 35px;
+    }
+    
+    p {
+        font-size: 35px;
+    }
+    h4 {
+        font-size: 40px;
+    }
+    
+    li {
+        font-size: 35px;
+    }
+} 
+
+@media screen and (max-width: 280px) {
+    h3 {
+        font-size: 40px
+    }
+}
